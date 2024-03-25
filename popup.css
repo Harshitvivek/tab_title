@@ -1,0 +1,45 @@
+body{
+    width:300px;
+    height: 120px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #F1F1F2;
+    color:  #F98866;
+}
+.wrapper
+{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+#getTabTitleBtn
+{
+    width: 180px;
+    height: 30px;
+    background-color: #A1D6E2 ;
+    border: none;
+    border-radius: 4px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#getTabTitleBtn:hover
+{
+    transform: scale(1.05);
+}
+
+
+.tabTitleHeading
+{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    color: #1995AD;
+
+}
+
+#tabTitle
+{
+    color: #1995AD;
+    display: inline-flex;
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Tab Title Viewer",
+    "description": "Display the title of the current tab",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "icons": {
+        "128": "tag.png"
+    },
+
+
+    "action": {
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    }
+}
